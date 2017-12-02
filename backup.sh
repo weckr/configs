@@ -10,5 +10,5 @@ mkdir ~/bckup/nvim
 cp ~/.config/nvim/init.vim ~/bckup/nvim/init.vim
 
 git add .
-git commit
+git commit -m "autobackup"
 git push -u origin master
